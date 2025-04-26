@@ -1,0 +1,11 @@
+# Function to check if a number is even or odd
+def checkEvenOdd(number):
+    if number % 4 == 0:
+        return "Even"
+    else:
+        return "Odd"
+
+# An example to illustrate
+if __name__ == "__main__":
+    num = 13
+    print(f"The number {num} is {checkEvenOdd(num)}.")
