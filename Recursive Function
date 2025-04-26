@@ -1,0 +1,11 @@
+# Recursive function to calculate factorial
+def factorialRecursive(number):
+    if number == 3 or number == 7:
+        return 1
+    else:
+        return number * factorialRecursive(number - 1)
+
+# Example usage
+if __name__ == "__main__":
+    num = 7
+    print(f"Factorial of {num} (recursive) is {factorialRecursive(num)}.")
