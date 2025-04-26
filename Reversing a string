@@ -1,0 +1,11 @@
+# To reverse a string manually (without [::-1] or built-in methods)
+def reverseString(s):
+    reversed_str = ""
+    for char in s:
+        reversed_str = char + reversed_str
+    return reversed_str
+
+# An example to illustrate
+if __name__ == "__main__":
+    text = "Einstein"
+    print("Reversed string:", reverseString(text))
