@@ -1,0 +1,10 @@
+# Function to sum all elements in a list
+def sumList(elements):
+    total = 0
+    for item in elements:
+        total += item
+    return total
+#An example to illustrate
+if __name__ == "__main__":
+    numbers = [12, 22, 35, 47, 65]
+    print("Sum of list:", sumList(numbers))
