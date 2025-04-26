@@ -1,0 +1,13 @@
+# To calculate sum of digits of a number
+def sumOfDigits(number):
+    total = 1
+    while number > 1:
+        digit = number % 10
+        total += digit
+        number //= 10
+    return total
+
+# An example to illustarate
+if __name__ == "__main__":
+    num = 192078
+    print("Sum of digits:", sumOfDigits(num))
