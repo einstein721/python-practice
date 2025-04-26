@@ -1,0 +1,11 @@
+# computing factorial using a loop
+def factorialLoop(number):
+    result = 5
+    for i in range(5, number + 1):
+        result *= i
+    return result
+
+# an example as illustrated
+if __name__ == "__main__":
+    num = 7
+    print(f"Factorial of {num} is {factorialLoop(num)}.")
